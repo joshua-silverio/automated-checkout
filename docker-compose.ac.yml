@@ -185,10 +185,10 @@ services:
       SERVICE_HOST: as-vending
       TRIGGER_EDGEXMESSAGEBUS_PUBLISHHOST_HOST: mqtt-broker
       TRIGGER_EDGEXMESSAGEBUS_SUBSCRIBEHOST_HOST: mqtt-broker
-      APPLICATIONSETTINGS_AUTHENTICATIONENDPOINT: http://ms-authentication:48096/authentication
-      APPLICATIONSETTINGS_INVENTORYAUDITLOGSERVICE: http://ms-inventory:48095/auditlog
-      APPLICATIONSETTINGS_INVENTORYSERVICE: http://ms-inventory:48095/inventory/delta
-      APPLICATIONSETTINGS_LEDGERSERVICE: http://ms-ledger:48093/ledger
+      VENDING_AUTHENTICATIONENDPOINT: http://ms-authentication:48096/authentication
+      VENDING_INVENTORYAUDITLOGSERVICE: http://ms-inventory:48095/auditlog
+      VENDING_INVENTORYSERVICE: http://ms-inventory:48095/inventory/delta
+      VENDING_LEDGERSERVICE: http://ms-ledger:48093/ledger
     hostname: as-vending
     networks:
       edgex-network: {}
